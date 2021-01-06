@@ -1,0 +1,183 @@
+
+
+.titulo-eliminar {
+    background: #dc3545;
+    color: #ffffff;
+}
+
+/* Boton Para poder eliminar */
+
+/* Boronn para oder editar */
+
+
+.swal-wide {
+    font-size: 15px !important;
+}
+
+.swal-pop {
+    font-size: 15px !important;
+}
+
+.mostrar {
+    background: #07aa6c;
+    color: #ffffff;
+}
+
+.mostrar:hover {
+    background: #09c37c;
+    color: #ffffff;
+}
+
+.ocultar {
+    background: #f54747;
+    color: #ffffff;
+}
+.ocultar:hover {
+    background: #e03d3d;
+    color: #ffffff;
+}
+
+/* quitar los platos agregados */
+.quitar {
+    background: #f54747;
+    color: #ffffff;
+}
+.quitar:hover {
+    background: #e03d3d;
+    color: #ffffff;
+}
+
+.btn-info {
+    background: #17a2b8;
+}
+
+.btn-danger {
+    background: #dc3545;
+}
+
+.btn-danger:hover{
+    background: #db4b59;
+}
+
+.btn-primary {
+    background: #007bff;
+}
+
+.btn-primary:hover{
+    background: #1571d3;
+}
+
+/* Para colorear el estado de habitación Limpieza */
+.estado_habitacion_l {
+    color: #ffffff; background: #2694fb; border-radius: 10px; text-align: center;
+    /* background-image: url("../img/icono2.png"); */
+    width: 200px; height: 100px; margin-right: 10px; margin-bottom: 15px; cursor: pointer;
+}
+.estado_habitacion_l:hover{
+    background: #2683da;
+    font-size: 1.05em;
+}
+
+/* Para colorear el estado de habitación */
+.estado_habitacion_d {
+    color: #ffffff; background: #06a749; border-radius: 10px; text-align: center;
+    width: 200px; height: 100px; margin-right: 10px; margin-bottom: 15px;
+}
+.estado_habitacion_d:hover{
+    background: #198f4a;
+    font-size: 1.05em;
+}
+.estado_habitacion_d:hover img, .estado_habitacion_r:hover img,
+ .estado_habitacion_o:hover img, .estado_habitacion_l:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+/* Para colorear el estado de habitación Ocupado */
+.estado_habitacion_r {
+    color: #ffffff; background: rgb(5, 132, 136); border-radius: 10px; text-align: center;
+    width: 200px; height: 100px; margin-right: 10px; margin-bottom: 15px;
+}
+.estado_habitacion_r:hover{
+    background: rgb(19, 96, 98);
+    font-size: 1.05em;
+}
+
+/* Para colorear el estado de habitación Ocupado */
+.estado_habitacion_o {
+    color: #ffffff; background: #d65858; border-radius: 10px; text-align: center;
+    width: 200px; height: 100px; margin-right: 10px; margin-bottom: 15px;
+}
+.estado_habitacion_o:hover{
+    background: #c73434;
+    font-size: 1.05em;
+}
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+    font-size: 1em;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    padding: 3px 20px;
+    margin: -40px;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+
+}
+[data-title] {
+    position: relative;
+}
+
+.estado_habitacion_r a {
+    text-decoration: none; color: white; text-align: center; display:block; width:100%; height:100%;
+}
+
+.estado_habitacion_o a {
+    text-decoration: none; color: white; text-align: center; display:block; width:100%; height:100%;
+}
+.estado_habitacion_l a {
+    text-decoration: none; color: white; text-align: center; display:block; width:100%; height:100%;
+}
+
+.estado_habitacion_d a {
+    text-decoration: none; color: white; text-align: center; display:block; width:100%; height:100%;
+}
+
+
+
+.titulo {
+    color: #0c3581;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 17px;
+    padding-right: 10px;
+    float: left;
+}
+
+/* borrar un boton */
+#buscar {
+    display: none;
+}
+
+
+
+.cabecera {
+    background: #545555;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+    border-radius: 5px;
+}
